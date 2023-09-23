@@ -1,12 +1,10 @@
 #include <iostream>
+#include <bits/stdc++.h>
 #include "helper.h"
 
+using namespace std;
+
 int main() {
-    vectorBasicTest();
-    vectorManipulation();
-    QueueStackBasicTest();
-    SetAndPairAndMapBasicTest();
-    stringBasicTest();
-    valarrayTest();
+
     return 0;
 }
