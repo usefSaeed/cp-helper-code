@@ -65,9 +65,9 @@ void vectorBasicTest()
     vi v1(10, 7);							// Initialize 10 elements with 7
 
     // What about vector from array
-    const int lenght = 6;
-    int array[lenght] = {5, 2, 7, 2, 0, 2};
-    vi v2(array, array+lenght);
+    const int length = 6;
+    int array[length] = {5, 2, 7, 2, 0, 2};
+    vi v2(array, array+length);
 
     printVec(v2, "v2: ");
 
@@ -163,9 +163,9 @@ bool isEqual(int a, int b) { return abs(a-b) < 2;	}	// consider
 // In fact lots of here, applicable to any thing has iterators (e.g. strings)
 void vectorManipulation()
 {
-    const int lenght = 10;
-    int array[lenght] = {4, 2, 3, 2, 9, 2, 17, 17, 17, 20};
-    vi v2(array, array+lenght);
+    const int length = 10;
+    int array[length] = {4, 2, 3, 2, 9, 2, 17, 17, 17, 20};
+    vi v2(array, array+length);
     vi v1(v2.begin()+2, v2.begin()+5);
 
     printVec(v2, "V2: ");
