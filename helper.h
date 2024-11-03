@@ -40,6 +40,9 @@ void printValArray(valarray<T> v2, string s = "")
 #define sz(v)			((int)((v).size()))
 
 typedef vector<int> vi;
+typedef pair<int,int> pi;
+typedef vector<pair<int,int>> vpi;
+
 
 // if your function is not a CORRECT less than operator <  , RTE probably will happen on a big test case.
 // if a < b, then b < a = false
